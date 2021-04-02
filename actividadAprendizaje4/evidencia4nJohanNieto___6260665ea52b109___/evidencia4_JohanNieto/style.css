@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+.escenario {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 5px;
+    background-color: #f3f2f1;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+caption {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: #2A9D8F;
+    font-weight: bold;
+    border-bottom: 5px solid #264653;
+    color: #fff;
+    font-size: 30px;
+}
+
+th{
+    background-color: #E9C46A;
+    text-align: center;
+}
+
+tr:first-child th:first-child{
+    background-color: #F4A261;
+}
+
+tr:first-child th:nth-child(even){
+    background-color: #c5a350;
+}
+
+tr:nth-child(even) th{
+    background-color: #c5a350;
+}
+
+tr:nth-child(2) td:nth-child(even){
+    background-color: #fff;
+}
+
+tr:nth-child(3) td:nth-child(odd){
+    background-color: #fff;
+}
+
+tr:nth-child(4) td:nth-child(even){
+    background-color: #fff;
+}
+
+tr:nth-child(5) td:nth-child(odd){
+    background-color: #fff;
+}
+
+tr:nth-child(6) td:nth-child(even){
+    background-color: #fff;
+}
+
+
+th,td {
+    padding: 10px;
+}
+
+.opciones {
+    margin: 20px auto;
+    width: 50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+label,input{
+    display:block;
+    margin:10px;
+}
+
+.botones{
+    flex-basis:100%;
+    text-align:center;
+}
+
+input[type="submit"],input[type="reset"]{
+    display:inline-block;
+}
+
